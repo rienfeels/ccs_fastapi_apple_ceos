@@ -4,11 +4,10 @@ from sqlalchemy.orm import sessionmaker
 
 
 url = URL.create(
-    drivername="",
-    username="",
-    password="",
+    drivername="postgresql",
+    username="postgres",
     host="localhost",
-    database="",
+    database="apple_ceos",
     port=5432
 )
 
